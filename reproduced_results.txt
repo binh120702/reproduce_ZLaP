@@ -1,0 +1,506 @@
+[
+    {
+        "dataset": "dtd",
+        "accuracy": 41.903073286052006,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "dtd",
+        "accuracy": 45.981087470449175,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "dtd",
+        "accuracy": 42.78959810874704,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "dtd",
+        "accuracy": 48.58156028368794,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "dtd",
+        "accuracy": 43.14420803782506,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "dtd",
+        "accuracy": 49.11347517730496,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "eurosat",
+        "accuracy": 35.54320987654321,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "eurosat",
+        "accuracy": 57.67901234567901,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "eurosat",
+        "accuracy": 31.85185185185185,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "eurosat",
+        "accuracy": 55.617283950617285,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "eurosat",
+        "accuracy": 38.839506172839506,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "eurosat",
+        "accuracy": 58.20987654320987,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "fgvca",
+        "accuracy": 17.821782178217823,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "fgvca",
+        "accuracy": 26.282628262826282,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "fgvca",
+        "accuracy": 17.37173717371737,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "fgvca",
+        "accuracy": 25.442544254425442,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "fgvca",
+        "accuracy": 17.941794179417943,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "fgvca",
+        "accuracy": 25.832583258325833,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "flowers",
+        "accuracy": 65.93585058871295,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "flowers",
+        "accuracy": 67.8846934632562,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "flowers",
+        "accuracy": 69.26512383272431,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "flowers",
+        "accuracy": 73.48761672756801,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "flowers",
+        "accuracy": 68.7779131140885,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "flowers",
+        "accuracy": 72.63499796995534,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "food101",
+        "accuracy": 78.83498349834983,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "food101",
+        "accuracy": 87.15511551155116,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "food101",
+        "accuracy": 77.87458745874588,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "food101",
+        "accuracy": 86.92409240924093,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "food101",
+        "accuracy": 78.25742574257426,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "food101",
+        "accuracy": 87.34323432343234,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "pets",
+        "accuracy": 83.94657944944126,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "pets",
+        "accuracy": 87.89860997547015,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "pets",
+        "accuracy": 80.32161351866993,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "pets",
+        "accuracy": 87.13545925320251,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "pets",
+        "accuracy": 77.6778413736713,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "pets",
+        "accuracy": 86.29054238212046,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "sun397",
+        "accuracy": 63.29974811083123,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "sun397",
+        "accuracy": 67.77329974811083,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "sun397",
+        "accuracy": 61.83375314861461,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "sun397",
+        "accuracy": 67.43576826196474,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "sun397",
+        "accuracy": 61.14861460957179,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "sun397",
+        "accuracy": 67.17380352644837,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cars",
+        "accuracy": 57.83582089552239,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cars",
+        "accuracy": 66.80348258706468,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cars",
+        "accuracy": 56.417910447761194,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cars",
+        "accuracy": 65.63432835820896,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cars",
+        "accuracy": 55.82089552238806,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cars",
+        "accuracy": 66.09452736318408,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "caltech101",
+        "accuracy": 89.61460446247465,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "caltech101",
+        "accuracy": 91.84584178498986,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "caltech101",
+        "accuracy": 86.89655172413794,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "caltech101",
+        "accuracy": 93.06288032454361,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "caltech101",
+        "accuracy": 86.32860040567951,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "caltech101",
+        "accuracy": 92.12981744421907,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cifar100",
+        "accuracy": 47.93,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cifar100",
+        "accuracy": 70.85,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cifar100",
+        "accuracy": 45.95,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cifar100",
+        "accuracy": 71.03,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cifar100",
+        "accuracy": 47.99,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cifar100",
+        "accuracy": 72.04,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cub",
+        "accuracy": 52.140144977563,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cub",
+        "accuracy": 58.18087676907145,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cub",
+        "accuracy": 49.689333793579564,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cub",
+        "accuracy": 59.371763893683124,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "cub",
+        "accuracy": 51.12185018985157,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "cub",
+        "accuracy": 59.07835692095271,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "ucf101",
+        "accuracy": 65.92651334919375,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "ucf101",
+        "accuracy": 73.80385937086967,
+        "setup": "transductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "ucf101",
+        "accuracy": 62.807295796986516,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "ucf101",
+        "accuracy": 71.45122918318795,
+        "setup": "inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    },
+    {
+        "dataset": "ucf101",
+        "accuracy": 64.23473433782712,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "RN50_openai"
+    },
+    {
+        "dataset": "ucf101",
+        "accuracy": 72.24425059476606,
+        "setup": "sparse-inductive",
+        "clf_type": "text",
+        "backbone": "ViT-B-16_openai"
+    }
+]

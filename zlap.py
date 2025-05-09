@@ -364,6 +364,64 @@ def main():
     acc = accuracy(scores, test_targets)
     print(f"{args.dataset} accuracy: {acc:.2f}")
 
+def run_experiment(
+    dataset="imagenet",
+    backbone="RN50_openai",
+    setup="transductive",
+    clf_type="text",
+    k=5,
+    gamma=5.0,
+    alpha=0.3
+):
+    (
+        train_features,
+        train_targets,
+        val_features,
+        val_targets,
+        test_features,
+        test_targets,
+        clf_text,
+        clf_image_train,
+        clf_image_val,
+        clf_image_test,
+        clf_cupl_text,
+        clf_cupl_image_train,
+        clf_cupl_image_val,
+        clf_cupl_image_test,
+    ) = get_data(dataset, backbone)
+
+    scale_sim = "proxy" in clf_type
+
+    if clf_type == "text":
+        clf_to_use = clf_text
+    elif clf_type == "cupl-text":
+        clf_to_use = clf_cupl_text
+
+    if setup == "transductive":
+        if clf_type == "proxy":
+            clf_to_use = clf_image_test
+        elif clf_type == "cupl-proxy":
+            clf_to_use = clf_cupl_image_test
+        scores = do_transductive_lp(test_features, clf_to_use, k, gamma, alpha, scale_sim)
+    elif setup == "inductive":
+        if clf_type == "proxy":
+            clf_to_use = clf_image_train
+        elif clf_type == "cupl-proxy":
+            clf_to_use = clf_cupl_image_train
+        scores = do_inductive_lp(train_features, clf_to_use, test_features, k, gamma, alpha, scale_sim)
+    elif setup == "sparse-inductive":
+        if clf_type == "proxy":
+            clf_to_use = clf_image_train
+        elif clf_type == "cupl-proxy":
+            clf_to_use = clf_cupl_image_train
+        scores = do_sparse_inductive_lp(train_features, clf_to_use, test_features, k, gamma, alpha, scale_sim)
+
+    if dataset == "coco":
+        mAP = voc_mAP(np.concatenate((scores, test_targets), axis=1), 80)
+        return {"dataset": dataset, "mAP": mAP}
+
+    acc = accuracy(scores, test_targets)
+    return {"dataset": dataset, "accuracy": acc}
 
 if __name__ == "__main__":
     main()
